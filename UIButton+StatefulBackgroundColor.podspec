@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "UIButton+StatefulBackgroundColor"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A category on UIButton adding a setBackgroundColor:forState: method."
   s.homepage         = "https://github.com/zodio/UIButton-StatefulBackgroundColor"
   s.license          = 'MIT'
   s.author           = { "Jai Govindani" => "jai@zodio.com" }
-  s.source           = { :git => "https://github.com/zodio/UIButton-StatefulBackgroundColor.git", :tag => "0.1.0" }
+  s.source           = { :git => "https://github.com/zodio/UIButton-StatefulBackgroundColor.git", :tag => "0.1.3" }
   s.social_media_url = 'https://twitter.com/govindani'
 
   s.platform     = :ios, '5.0'
