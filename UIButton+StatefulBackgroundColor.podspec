@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UIButton+StatefulBackgroundColor"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A category on UIButton adding a setBackgroundColor:forState: method."
   s.homepage         = "https://github.com/zodio/UIButton-StatefulBackgroundColor"
   s.license          = 'MIT'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/ios/*.{h,m}'
   s.framework = 'QuartzCore'
-  s.resources = 'Assets'
+  # s.resources = 'Assets'
 
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
