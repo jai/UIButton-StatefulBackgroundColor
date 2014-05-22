@@ -22,14 +22,15 @@
     UIColor *belizeHoleBlue = [UIColor colorWithRed:41/255.0 green:128/255.0 blue:185/255.0 alpha:1.0f];
     UIColor *sunflowerYellow = [UIColor colorWithRed:241/255.0 green:196/255.0 blue:15/255.0 alpha:1.0f];
 
-    [self.button setBackgroundColor:belizeHoleBlue image:[UIImage imageNamed:@"875-skull"] forState:UIControlStateNormal];
-    [self.button setBackgroundColor:sunflowerYellow image:[UIImage imageNamed:@"913-skull-selected"] forState:UIControlStateHighlighted];
-
-//    [self.button setBackgroundColor:asbestosGray forState:UIControlStateHighlighted];
+    UIImage *normalImage = [UIImage imageNamed:@"875-skull"];
+    UIImage *highlightedImage = [UIImage imageNamed:@"913-skull-selected"];
+    
+    [self.button setImage:normalImage forState:UIControlStateNormal];
+    [self.button setImage:highlightedImage forState:UIControlStateHighlighted];
+    [self.button setBackgroundColor:belizeHoleBlue forState:UIControlStateNormal];
+    [self.button setBackgroundColor:sunflowerYellow forState:UIControlStateNormal];
+    
     self.button.backgroundColor = [UIColor clearColor];
-    
-    //    UIButton *anotherButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
