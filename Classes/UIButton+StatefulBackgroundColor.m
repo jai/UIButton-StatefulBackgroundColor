@@ -11,19 +11,7 @@
 @implementation UIButton (StatefulBackgroundColor)
 
 - (void)setBackgroundColor:(UIColor*)color forState:(UIControlState)state {
-    UIView *backgroundView = [[UIView alloc] initWithFrame:self.bounds];
-    backgroundView.backgroundColor = color;
-    
-    UIGraphicsBeginImageContext(self.bounds.size);
-    [backgroundView.layer renderInContext:UIGraphicsGetCurrentContext()];
-    
-    UIImage *extractedImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    [self setImage:extractedImage forState:state];
-    
-    backgroundView = nil;
-    extractedImage = nil;
+    [self setBackgroundColor:color image:[self imageForState:state] forState:state];
 }
 
 - (void)setBackgroundColor:(UIColor *)color image:(UIImage *)image forState:(UIControlState)state {
