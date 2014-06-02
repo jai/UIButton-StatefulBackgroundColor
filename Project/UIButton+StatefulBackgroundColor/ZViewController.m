@@ -28,8 +28,9 @@
     [self.button setImage:normalImage forState:UIControlStateNormal];
     [self.button setImage:highlightedImage forState:UIControlStateHighlighted];
     [self.button setBackgroundColor:belizeHoleBlue forState:UIControlStateNormal];
-    [self.button setBackgroundColor:sunflowerYellow forState:UIControlStateNormal];
-    
+    [self.button setBackgroundColor:sunflowerYellow forState:UIControlStateHighlighted];
+    [self.button setBackgroundColor:belizeHoleBlue forState:UIControlStateHighlighted];
+
     self.button.backgroundColor = [UIColor clearColor];
 }
 
