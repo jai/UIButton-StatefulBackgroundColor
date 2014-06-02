@@ -1,0 +1,5 @@
+#include "Pods-UIButton+StatefulBackgroundColor.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/UIButton+StatefulBackgroundColor" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/UIButton+StatefulBackgroundColor"
+OTHER_LDFLAGS = -ObjC ${PODS_UIBUTTON_STATEFULBACKGROUNDCOLOR_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
