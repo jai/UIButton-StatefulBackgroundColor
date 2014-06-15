@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_UIButton_StatefulBackgroundColor
 #define COCOAPODS_VERSION_MAJOR_UIButton_StatefulBackgroundColor 0
 #define COCOAPODS_VERSION_MINOR_UIButton_StatefulBackgroundColor 1
-#define COCOAPODS_VERSION_PATCH_UIButton_StatefulBackgroundColor 3
+#define COCOAPODS_VERSION_PATCH_UIButton_StatefulBackgroundColor 4
 

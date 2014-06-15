@@ -1,5 +1,5 @@
 PODS:
-  - UIButton+StatefulBackgroundColor (0.1.3)
+  - UIButton+StatefulBackgroundColor (0.1.4)
 
 DEPENDENCIES:
   - UIButton+StatefulBackgroundColor (from `./UIButton+StatefulBackgroundColor.podspec`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ./UIButton+StatefulBackgroundColor.podspec
 
 SPEC CHECKSUMS:
-  UIButton+StatefulBackgroundColor: 6107f6dcaeff67b8d1e17e2bdc31bdd99d88bd20
+  UIButton+StatefulBackgroundColor: 4f361be41202ab8f7728e22bca08ec56d6a0f845
 
 COCOAPODS: 0.33.1
